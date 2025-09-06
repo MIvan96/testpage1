@@ -1,0 +1,139 @@
+{
+  "businesses": [
+    {
+      "id": "b1",
+      "name": "Cafe bar",
+      "type": "Cafe",
+      "address": "123 Coffee",
+      "description": "Nice cafe with great coffee."
+    },
+    {
+      "id": "b2",
+      "name": "Gym",
+      "type": "Gym",
+      "address": "456 Gym",
+      "description": "Modern gym with professional trainers and equipment."
+    },
+    {
+      "id": "b3",
+      "name": "Tech",
+      "type": "Electronics",
+      "address": "789 Tech",
+      "description": "Gadgets and accessories for tech enthusiasts."
+    },
+    {
+      "id": "b4",
+      "name": "Restaurant",
+      "type": "Restaurant",
+      "address": "101 Food",
+      "description": "Authentic restaurant serving pasta, pizza, and wine."
+    },
+    {
+      "id": "b5",
+      "name": "Books",
+      "type": "Bookstore",
+      "address": "202 Book ",
+      "description": "Bookstore with a wide selection of genres."
+    },
+    {
+      "id": "b6",
+      "name": "Hairdresser",
+      "type": "Barber",
+      "address": "303 Hair",
+      "description": "Trendy barbershop specializing in modern and classic cuts."
+    },
+    {
+      "id": "b7",
+      "name": "Clothing",
+      "type": "Clothing",
+      "address": "404 Fashion ",
+      "description": "Streetwear and casual fashion for young adults."
+    },
+    {
+      "id": "b8",
+      "name": "Cinema",
+      "type": "Cinema",
+      "address": "505 Movie ",
+      "description": "Cinema showing the latest movies."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "businessId": "b1",
+      "username": "test1",
+      "rating": 5,
+      "comment": "Best coffee in town! Friendly staff."
+    },
+    {
+      "id": "r2",
+      "businessId": "b2",
+      "username": "fit123",
+      "rating": 4,
+      "comment": "Great facilities but a bit crowded in the evenings."
+    },
+    {
+      "id": "r3",
+      "businessId": "b3",
+      "username": "tech123",
+      "rating": 3,
+      "comment": "Good selection but prices are a bit high."
+    },
+    {
+      "id": "r4",
+      "businessId": "b1",
+      "username": "coffee123",
+      "rating": 4,
+      "comment": "Nice ambiance, food could be fresher."
+    },
+    {
+      "id": "r5",
+      "businessId": "b4",
+      "username": "foodie99",
+      "rating": 5,
+      "comment": "Amazing pizza and excellent wine selection!"
+    },
+    {
+      "id": "r6",
+      "businessId": "b4",
+      "username": "pastalover",
+      "rating": 4,
+      "comment": "Tasty pasta, but service was a little slow."
+    },
+    {
+      "id": "r7",
+      "businessId": "b5",
+      "username": "reader101",
+      "rating": 5,
+      "comment": "Love the nice atmosphere and helpful staff."
+    },
+    {
+      "id": "r8",
+      "businessId": "b6",
+      "username": "styleman",
+      "rating": 4,
+      "comment": "Great haircut, but appointment times run late."
+    },
+    {
+      "id": "r9",
+      "businessId": "b7",
+      "username": "fashionista",
+      "rating": 3,
+      "comment": "Trendy clothes but sizes run small."
+    },
+    {
+      "id": "r10",
+      "businessId": "b8",
+      "username": "moviebuff",
+      "rating": 5,
+      "comment": "Comfortable seats and excellent sound system!"
+    },
+    {
+      "id": "r11",
+      "businessId": "b8",
+      "username": "cinemalover",
+      "rating": 4,
+      "comment": "Great picture quality, but popcorn was too salty."
+    }
+  ]
+}
