@@ -8,7 +8,7 @@ export default function AboutUs() {
         <section className="flex flex-col items-center p-8 shadow-md">
           <h2 className="text-2xl font-bold mb-4">Demo/About Us</h2>
           <p>
-            This is a placeholder "About Us" page. <br />
+            This is a placeholder &quot;About us&quot; page. <br />
             It is created for demonstration purposes.
           </p>
         </section>

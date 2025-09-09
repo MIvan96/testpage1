@@ -2,8 +2,16 @@ import NavLinks from "./nav-links";
 import data from "@/data/data.json";
 
 export default function FilterButtons() {
-  const rawTypes = ((data as any).businesses as any[])
-    .map((b: any) => b.type as string)
+  type Business = {
+    id: string;
+    name: string;
+    type: string;
+    address: string;
+    description: string;
+  };
+
+  const rawTypes = (data.businesses as Business[])
+    .map((b) => b.type)
     .filter(Boolean);
   const types: string[] = Array.from(new Set<string>(rawTypes));
 

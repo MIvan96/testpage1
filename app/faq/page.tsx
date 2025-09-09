@@ -13,7 +13,7 @@ export default function Faq() {
             <div>
               <h3 className="font-semibold">What is this page about?</h3>
               <p>
-                This is a placeholder "Frequently Asked Questions" page.
+                This is a placeholder &ldquo;Frequently Asked Questions&rdquo; page.
                 
               </p>
             </div>
@@ -29,7 +29,7 @@ export default function Faq() {
             <div>
               <h3 className="font-semibold">Is this a real website?</h3>
               <p>
-                No, this is just a test page used for experimenting with
+                No, this is just a test website used for practicing and demonstrating
                 Next.js.
               </p>
             </div>

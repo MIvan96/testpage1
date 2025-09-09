@@ -47,7 +47,7 @@ export default function ReviewShowcase() {
             <p className="text-gray-700">
               <span className="font-semibold">Address:</span> {biz.address}
             </p>
-            <p className="mt-1 text-gray-800 italic">"{biz.description}"</p>
+            <p className="mt-1 text-gray-800 italic">&ldquo;{biz.description}&rdquo;</p>
           </div>
         );
       })}

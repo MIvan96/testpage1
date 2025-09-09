@@ -37,9 +37,7 @@ export default function CompaniesPage() {
                 <span className="font-semibold">Address:</span>{" "}
                 {company.address}
               </p>
-              <p className="mt-1 text-gray-800 italic">
-                "{company.description}"
-              </p>
+              <p className="mt-1 text-gray-800 italic">&ldquo;{company.description}&rdquo;</p>
             </li>
           ))}
         </ul>

@@ -15,6 +15,7 @@ type Review = {
 type Company = {
   id: string;
   name: string;
+  type: string;
 };
 
 export default async function ReviewsPage({
@@ -28,7 +29,7 @@ export default async function ReviewsPage({
   const selectedType = (await searchParams)?.get?.("type") || "";
 
   const businessIdToType = new Map<string, string>(
-    companies.map((c: any) => [c.id, (c as any).type])
+    companies.map((c) => [c.id, c.type])
   );
 
   const filteredReviews = selectedType

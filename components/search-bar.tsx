@@ -19,7 +19,7 @@ export default function SearchBar({ onSearch }: Props) {
     description: string;
   };
 
-  const businesses: Business[] = (data as any).businesses as Business[];
+  const businesses: Business[] = data.businesses as Business[];
 
   const results = useMemo(() => {
     const query = text.trim().toLowerCase();
