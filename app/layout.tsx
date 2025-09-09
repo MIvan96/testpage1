@@ -1,4 +1,11 @@
 import "./globals.css";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "test page",
+  description: "test page",
+};
+
 
 export default function RootLayout({
   children,
@@ -7,6 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      
       <body className="min-h-screen flex flex-col">{children}</body>
     </html>
   );

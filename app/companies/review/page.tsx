@@ -17,15 +17,15 @@ type Company = {
   name: string;
 };
 
-export default function ReviewsPage({
+export default async function ReviewsPage({
   searchParams,
 }: {
-  searchParams?: { type?: string };
+  searchParams?: Promise<URLSearchParams>;
 }) {
   const reviews: Review[] = data.reviews;
   const companies: Company[] = data.businesses;
 
-  const selectedType = searchParams?.type || "";
+  const selectedType = (await searchParams)?.get?.("type") || "";
 
   const businessIdToType = new Map<string, string>(
     companies.map((c: any) => [c.id, (c as any).type])
@@ -46,7 +46,7 @@ export default function ReviewsPage({
           <div className="w-full max-w-3xl">
             <Link
               href="/"
-              className="inline-flex items-center text-blue-600 hover:underline mb-4"
+              className="inline-flex items-center text-green-600 hover:underline mb-4"
             >
               ← Back to Home
             </Link>
@@ -65,7 +65,7 @@ export default function ReviewsPage({
                   key={review.id}
                   className="border rounded-lg p-4 shadow-sm bg-white"
                 >
-                  <h2 className="text-lg font-semibold mb-1">
+                  <h2 className="text-lg text-black font-semibold mb-1">
                     {getCompanyName(review.businessId)}
                   </h2>
                   <div className="flex items-center gap-2 mb-2">

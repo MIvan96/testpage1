@@ -8,11 +8,8 @@ export default function AboutUs() {
         <section className="flex flex-col items-center p-8 shadow-md">
           <h2 className="text-2xl font-bold mb-4">Demo/About Us</h2>
           <p>
-            This is a demo website built with <strong>Next.js</strong>.<br />
-            The goal of this project is to practice building modern web
-            applications with reusable components, routing, and server-side
-            rendering.
-            <br /> We focus on clean code, simple design, and scalability.
+            This is a placeholder "About Us" page. <br />
+            It is created for demonstration purposes.
           </p>
         </section>
       </main>

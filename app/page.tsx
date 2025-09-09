@@ -5,9 +5,12 @@ import SearchBar from "@/components/search-bar";
 import ReviewShowcase from "@/components/review-showcase";
 import NavLinks from "@/components/nav-links";
 
+
+
 export default function Home() {
   return (
     <>
+     
       <MainHeader />
 
       <main className="flex-1 flex flex-col ">
@@ -30,7 +33,7 @@ export default function Home() {
         </section>
         <section className="bg-white  flex flex-col justify-evenly items-center flex-nowrap gap-4">
          
-          <p className="text-black">Read the reviews</p>
+          
           <h1 className="text-black font-bold">Search categories:</h1>
 
           <FilterButtons />

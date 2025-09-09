@@ -8,8 +8,7 @@ export default function Contact() {
         <section className="flex flex-col items-center p-8 shadow-md">
           <h2 className="text-2xl font-bold mb-4">Demo/Contact Us</h2>
           <p className="mb-4">
-            Have questions or feedback? Since this is just a demo, you can’t
-            really contact us, but here’s how a contact section usually looks:
+            Have any questions or feedback? Please feel free to contact us.
           </p>
           <form className="space-y-4 max-w-md">
             <input

@@ -11,25 +11,25 @@ export default function Faq() {
           </h2>
           <div className="space-y-4">
             <div>
-              <h3 className="font-semibold">What is this website about?</h3>
+              <h3 className="font-semibold">What is this page about?</h3>
               <p>
-                This is a demo project showcasing Next.js functionality and
-                modern web design practices.
+                This is a placeholder "Frequently Asked Questions" page.
+                
               </p>
             </div>
             <div>
               <h3 className="font-semibold">
-                Can I use this project for my own work?
+                what is this page for?
               </h3>
               <p>
-                Yes, feel free to take inspiration or reuse parts of it for your
-                own learning projects.
+               
+                It is created for demonstration purposes.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold">Is this a real business?</h3>
+              <h3 className="font-semibold">Is this a real website?</h3>
               <p>
-                Nope, this is just a test page used for experimenting with
+                No, this is just a test page used for experimenting with
                 Next.js.
               </p>
             </div>
