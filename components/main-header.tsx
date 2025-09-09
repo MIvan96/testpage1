@@ -35,7 +35,7 @@ export default function MainHeader() {
           </nav>
         </div>
 
-        <div className="flex items-center">
+        <div className="hidden md:flex items-center">
           <NavLinks href="/add-review-page">
             <span className="bg-black text-white rounded-full px-4 py-2 hover:bg-gray-900 inline-block">
               Add Review
